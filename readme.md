@@ -4,30 +4,30 @@ Workflow of the whole project
 - grab some spotify playlists which represent classic genres
 - get spotify api credentials by registering from their website
 - FILE 1
-    - filename - create_spotify_df.py
+    - filename - 1_create_spotify_df.py
     - ping their api with the playlists link you have saved to get the individual details of each song. 
     - Label these songs since you know what playlist each songs belong to. 
     - Export to pandas dataframe
 - NOTEBOOK 2
-    - filename - EDA_songs.ipynb
+    - filename - 2_EDA_songs.ipynb
     - Do some EDA on the dataset in a jupyter notebook
         - Process and clean the dataset
             - Export the processed and cleaned dataset so that i can be used in the next stage 
         - do some visualizations to get a better idea of the dataset
 - FILE 3
-    - filename - download_songs.py
+    - filename - 3_download_songs.py
     - Using the spotdl or some other library, download the spotify songs with the help of the cleaned dataset
         - the script might run for a long time since a llot of songs are being downlaoded
 - FILE 4
-    - create a script which will chunk the downloaded songs into 30 seconds increments and write those chunks to storage 
-- FILE 5 
-    - use a library or an algo from online to convert these chunks into image data which contain the features about the songs/chunks
-- FILE 6
+    - fileame - 4_process_songs.py
+    - create a script which will load the downloaded songs into "n" seconds increments and use librosa to extract either mfcc features or mel spectograms from those "n" second snippets which can be used as features/training data for the CNN model or some other classical ML approach/techniques
+
+- FILE 5
+    - filename - 5_cnn_model.py
     - A file to easily load the dataset/images
         - (how to split into train,test datasets)[https://www.tensorflow.org/tutorials/load_data/images#train_a_model]
     - clean and preprocess the images, convert to correct format and specifications 
     - make it so that they can directly be used as model input for the dataloader
-- FILE 7
     - load the dataset for training
         - train test split,dataloaders, etc. 
     - define model architecture
@@ -36,13 +36,13 @@ Workflow of the whole project
         - save best model, checkpoint
     - evaluation metrics, 
         - rough measure of metrics on test set
-- FILE 8
+- FILE 6
     - make 2 functions
         - one to run inference on a song
             - since songs are > 30s, chunk them, run inference separately and parallely, if possible(maybe use batch processing and pipeline???)
             - select output by mode (most frequently predicted genre throughout chunks), sort of like ensemble learning
-        - one to run inferencr 
-- FILE 9
+        - one to run inference on a said playlist ??? (optional)
+- FILE 7
     - extend and API for function number 1 in FILE 8 
 
 # what about baseline mode using GTZAN? 

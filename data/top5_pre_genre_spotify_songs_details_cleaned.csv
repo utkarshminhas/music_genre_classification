@@ -1,0 +1,56 @@
+item_type,song_name,song_duration_ms,artists,album_name,release_date,song_preview_url,song_url,popularity,genre
+track,Tennessee Whiskey,293293,Chris Stapleton,Traveller,2015,,https://open.spotify.com/track/3fqwjXwUGN6vbzIwvyFMhx,82,country
+track,Chasin' You,205453,Morgan Wallen,If I Know Me,2018,https://p.scdn.co/mp3-preview/0f91ed4fde6bba8680c193da321bf882e09115d9?cid=c17b2cc765cd4ad9b5353574849a4496,https://open.spotify.com/track/5MwynWK9s4hlyKHqhkNn4A,81,country
+track,Whiskey Glasses,234346,Morgan Wallen,If I Know Me,2018,https://p.scdn.co/mp3-preview/8bfbda21b7e6c086f8d5461c05226cbf2f3e31fa?cid=c17b2cc765cd4ad9b5353574849a4496,https://open.spotify.com/track/6foY66mWZN0pSRjZ408c00,81,country
+track,When It Rains It Pours,240760,Luke Combs,This One's for You,2017,https://p.scdn.co/mp3-preview/034066bcc59420c96bc025ed2f204ee2cb9c975d?cid=c17b2cc765cd4ad9b5353574849a4496,https://open.spotify.com/track/1mMLMZYXkMueg65jRRWG1l,80,country
+track,Beautiful Crazy,193200,Luke Combs,This One's for You Too (Deluxe Edition),2018,https://p.scdn.co/mp3-preview/7160f5cd6c0e3aff6e2251b018bb0b88d2b8c101?cid=c17b2cc765cd4ad9b5353574849a4496,https://open.spotify.com/track/2rxQMGVafnNaRaXlRMWPde,80,country
+track,Yellow,266773,Coldplay,Parachutes,2000,https://p.scdn.co/mp3-preview/c0d9119dc69cae75baf6463e21e43f433fdf5ff4?cid=c17b2cc765cd4ad9b5353574849a4496,https://open.spotify.com/track/3AJwUDP919kvQ9QcozQPxg,89,rock
+track,Believer,204346,Imagine Dragons,Evolve,2017,,https://open.spotify.com/track/0pqnGHJpmpxLKifKRmU6WP,88,rock
+track,Do I Wanna Know?,272394,Arctic Monkeys,AM,2013,https://p.scdn.co/mp3-preview/006bc465fe3d1c04dae93a050eca9d402a7322b8?cid=c17b2cc765cd4ad9b5353574849a4496,https://open.spotify.com/track/5FVd6KXrgO9B3JPmC8OPst,87,rock
+track,Stressed Out,202333,Twenty One Pilots,Blurryface,2015,https://p.scdn.co/mp3-preview/d01bb6b4b9952d95d2609632474cda8e632e044d?cid=c17b2cc765cd4ad9b5353574849a4496,https://open.spotify.com/track/3CRDbSIZ4r5MsZ0YwxuEkn,85,rock
+track,Mr. Brightside,222973,The Killers,Hot Fuss,2004,,https://open.spotify.com/track/003vvx7Niy0yvhvHt4a68B,85,rock
+track,Experience,315426,"Daniel Hope, I Virtuosi Italiani, Ludovico Einaudi",In A Time Lapse,2013,,https://open.spotify.com/track/1BncfTJAWxrsxyT9culBrj,78,classical
+track,"Comptine d'un autre été, l'après-midi",140733,Yann Tiersen,Le Fabuleux destin d'Amélie Poulain (Bande originale du film),2001,https://p.scdn.co/mp3-preview/df24e196f6607178532177beefb9acf8b73fa68b?cid=c17b2cc765cd4ad9b5353574849a4496,https://open.spotify.com/track/14rZjW3RioG7WesZhYESso,73,classical
+track,Nuvole Bianche,357706,Ludovico Einaudi,Una Mattina,2004,,https://open.spotify.com/track/3weNRklVDqb4Rr5MhKBR3D,72,classical
+track,"The Carnival of the Animals, R. 125: XIII. The Swan (Arr. for Cello and Piano)",174266,"Camille Saint-Saëns, Kathryn Stott, Yo-Yo Ma",Songs from the Arc of Life,2015,https://p.scdn.co/mp3-preview/1b3cb310d4e62e0c5a727500891a931866492103?cid=c17b2cc765cd4ad9b5353574849a4496,https://open.spotify.com/track/0jOnZhF75V68VsBObWx2XO,71,classical
+track,"Sonata No. 14 ""Moonlight"" in C-Sharp Minor"", Op. 27 No. 2: I. Adagio sostenuto",315426,"Ludwig van Beethoven, Paul Lewis","Beethoven: Piano Sonatas, Vol.3",2007,https://p.scdn.co/mp3-preview/4423bbe58e0471b17db02036ac93f9e1696dc663?cid=c17b2cc765cd4ad9b5353574849a4496,https://open.spotify.com/track/3DNRdudZ2SstnDCVKFdXxG,70,classical
+track,No Role Modelz,292799,J. Cole,2014 Forest Hills Drive,2014,,https://open.spotify.com/track/68Dni7IE4VyPkTOH9mRWHr,89,hip-hop
+track,Revenge,120026,XXXTENTACION,17,2017,https://p.scdn.co/mp3-preview/8f5fe8bb510463b2da20325c8600200bf2984d83?cid=c17b2cc765cd4ad9b5353574849a4496,https://open.spotify.com/track/5TXDeTFVRVY7Cvt0Dw4vWW,87,hip-hop
+track,The Real Slim Shady,284200,Eminem,The Marshall Mathers LP,2000,,https://open.spotify.com/track/3yfqSUWxFvZELEM4PmlwIR,87,hip-hop
+track,Gangsta's Paradise,240693,"Coolio, L.V.",Gangsta's Paradise,1995,https://p.scdn.co/mp3-preview/1454c63a66c27ac745f874d6c113270a9c62d28e?cid=c17b2cc765cd4ad9b5353574849a4496,https://open.spotify.com/track/1DIXPcTDzTj8ZMHt3PDt8p,86,hip-hop
+track,Till I Collapse,297786,"Eminem, Nate Dogg",The Eminem Show,2002,,https://open.spotify.com/track/4xkOaSrkexMciUUogZKVTS,85,hip-hop
+track,Sure Thing,195373,Miguel,All I Want Is You,2010,https://p.scdn.co/mp3-preview/d337faa4bb71c8ac9a13998be64fbb0d7d8b8463?cid=c17b2cc765cd4ad9b5353574849a4496,https://open.spotify.com/track/0JXXNGljqupsJaZsgSbMZV,92,r&b
+track,Under The Influence,184613,Chris Brown,Indigo (Extended),2019,https://p.scdn.co/mp3-preview/52295df71df20e33e1510e3983975cd59f6664a4?cid=c17b2cc765cd4ad9b5353574849a4496,https://open.spotify.com/track/5IgjP7X4th6nMNDh4akUHb,91,r&b
+track,Die For You,260253,The Weeknd,Starboy,2016,,https://open.spotify.com/track/2Ch7LmS7r2Gy2kc64wv3Bz,87,r&b
+track,Pink + White,184516,Frank Ocean,Blonde,2016,https://p.scdn.co/mp3-preview/0e3ca894e19c37cbbbd511d9eb682d8bee030126?cid=c17b2cc765cd4ad9b5353574849a4496,https://open.spotify.com/track/3xKsf9qdS1CyvXSMEid6g8,86,r&b
+track,One Dance,173986,"Drake, Kyla, Wizkid",Views,2016,,https://open.spotify.com/track/1zi7xx7UVEFkmKfv06H8x0,86,r&b
+track,What A Wonderful World,139226,Louis Armstrong,What A Wonderful World,1968,,https://open.spotify.com/track/29U7stRjqHU6rMiS8BfaI9,76,jazz
+track,My Baby Just Cares for Me - 2013 Remastered Version,215746,Nina Simone,Little Girl Blue (2013 Remastered Version),1958,,https://open.spotify.com/track/6VTbbVjKOC2qWagIDbkJrC,69,jazz
+track,Unforgettable,191973,Nat King Cole,Unforgettable,1954,,https://open.spotify.com/track/648TTtYB0bH0P8Hfy0FmkL,67,jazz
+track,The Girl From Ipanema,321826,Stan Getz,The Girl From Ipanema - The Bossa Nova Years,1989,,https://open.spotify.com/track/3898C4AbdbptwYet6547e5,67,jazz
+track,Stormy Weather,187666,Etta James,At Last!,1960,,https://open.spotify.com/track/2IdwQxhJn9ZE4zIotcCefR,67,jazz
+track,I Wanna Be Yours,183956,Arctic Monkeys,AM,2013,https://p.scdn.co/mp3-preview/07de30bde8363d9ff78b72339245c151f67af451?cid=c17b2cc765cd4ad9b5353574849a4496,https://open.spotify.com/track/5XeFesFbtLpXzIVDNQP22n,92,chill/mellow
+track,When I Was Your Man,213826,Bruno Mars,Unorthodox Jukebox,2012,https://p.scdn.co/mp3-preview/159fc05584217baa99581c4821f52d04670db6b2?cid=c17b2cc765cd4ad9b5353574849a4496,https://open.spotify.com/track/0nJW01T7XtvILxQgC5J7Wh,88,chill/mellow
+track,Call Out My Name,228373,The Weeknd,"My Dear Melancholy,",2018,,https://open.spotify.com/track/09mEdoA6zrmBPgTEN5qXmN,88,chill/mellow
+track,lovely (with Khalid),200185,"Billie Eilish, Khalid",lovely (with Khalid),2018,,https://open.spotify.com/track/0u2P5u6lvoDfwTYjAADbn4,88,chill/mellow
+track,Night Changes,226600,One Direction,FOUR (Deluxe),2014,https://p.scdn.co/mp3-preview/359be833b46b250c696bbb64caa5dc91f2a38c6a?cid=c17b2cc765cd4ad9b5353574849a4496,https://open.spotify.com/track/5O2P9iiztwhomNh8xkR9lJ,87,chill/mellow
+track,Wake Me Up,247426,Avicii,True,2013,,https://open.spotify.com/track/0nrRP2bk19rLc0orkWPQk2,86,electronic
+track,The Nights,176658,Avicii,The Days / Nights,2014,,https://open.spotify.com/track/0ct6r3EGTcMLPtrXHDvVjc,86,electronic
+track,Something Just Like This,247160,"Coldplay, The Chainsmokers",Memories...Do Not Open,2017,https://p.scdn.co/mp3-preview/4e117abe76700eb13e9e0557fa2d9c44b565b9da?cid=c17b2cc765cd4ad9b5353574849a4496,https://open.spotify.com/track/6RUKPb4LETWmmr3iAEQktW,85,electronic
+track,This Is What You Came For,222160,"Calvin Harris, Rihanna",This Is What You Came For,2016,https://p.scdn.co/mp3-preview/14138fec09bb5940b1ee11c3207663906970cf9b?cid=c17b2cc765cd4ad9b5353574849a4496,https://open.spotify.com/track/0azC730Exh71aQlOt9Zj3y,83,electronic
+track,Waiting For Love,230613,Avicii,Stories,2015,,https://open.spotify.com/track/2P4OICZRVAQcYAV2JReRfj,82,electronic
+track,what's-oup?,157928,JoJo Mojo,what's-oup?,2023,https://p.scdn.co/mp3-preview/e2f6528b7a26197bef39484283ffd9a3d92a334d?cid=c17b2cc765cd4ad9b5353574849a4496,https://open.spotify.com/track/4bKT8NrOI1ZezuO2HAQegW,62,lofi
+track,Pocky,95008,Dpsht,Pocky,2023,https://p.scdn.co/mp3-preview/640aab0f582b6aaa1ae51b2d46fbdf2fd484395a?cid=c17b2cc765cd4ad9b5353574849a4496,https://open.spotify.com/track/4WxxKESg7ymI3dqFID9zw7,62,lofi
+track,oasis,112592,6 floors up,oasis,2023,https://p.scdn.co/mp3-preview/d30ace03e940401af5c566743177cc7234328134?cid=c17b2cc765cd4ad9b5353574849a4496,https://open.spotify.com/track/6DiOBAOoWjyBw1b4QYS2dF,62,lofi
+track,it's a secret,171750,Okwizi,thorns for flowers,2023,https://p.scdn.co/mp3-preview/ee61eaa5864467f9afec005611c408215c517c99?cid=c17b2cc765cd4ad9b5353574849a4496,https://open.spotify.com/track/3281g5st2TN0ej5ni22ihl,61,lofi
+track,Windy Trees,133333,Jost Esser,Windy Trees,2023,https://p.scdn.co/mp3-preview/3748d8878dc098140d42d13985a8d4db6b50584a?cid=c17b2cc765cd4ad9b5353574849a4496,https://open.spotify.com/track/0qi4wIRDHBVWDlL3ZItw4z,61,lofi
+track,I'd Rather Go Blind,156653,Etta James,Tell Mama,1968,,https://open.spotify.com/track/1kPBT8S2wJFNAyBMnGVZgL,72,blues
+track,Pride and Joy,219586,Stevie Ray Vaughan,Texas Flood (Legacy Edition),1983,https://p.scdn.co/mp3-preview/8faa93aa2d3e22a430ee9685e3ad2695c5508417?cid=c17b2cc765cd4ad9b5353574849a4496,https://open.spotify.com/track/1a2iF9XymafjRk56q7oCxo,67,blues
+track,The Thrill Is Gone,301133,"B.B. King, Tracy Chapman",Deuces Wild,1997,,https://open.spotify.com/track/3cg0dJfrQB66Qf2YthPb6G,63,blues
+track,The Thrill Is Gone,324733,B.B. King,Completely Well,1969,,https://open.spotify.com/track/4NQfrmGs9iQXVQI9IpRhjM,62,blues
+track,Mannish Boy,321133,Muddy Waters,King Of The Electric Blues,1977,https://p.scdn.co/mp3-preview/4cfb55a2ddbd24a5538f21588a85fa5727025aa7?cid=c17b2cc765cd4ad9b5353574849a4496,https://open.spotify.com/track/58PSYdY0GFg0LFb2PxYk4T,62,blues
+track,Flowers,200454,Miley Cyrus,Flowers,2023,https://p.scdn.co/mp3-preview/9fbe346e805ed219204f53324f94557ab557b6d3?cid=c17b2cc765cd4ad9b5353574849a4496,https://open.spotify.com/track/0yLdNVWF3Srea0uzk55zFn,100,pop
+track,Calm Down (with Selena Gomez),239317,"Rema, Selena Gomez",Calm Down (with Selena Gomez),2022,,https://open.spotify.com/track/0WtM2NBVQNNJLh6scP13H8,95,pop
+track,Die For You - Remix,232857,"Ariana Grande, The Weeknd",Die For You (Remix),2023,,https://open.spotify.com/track/7oDd86yk8itslrA9HRP2ki,95,pop
+track,Anti-Hero,200690,Taylor Swift,Midnights,2022,,https://open.spotify.com/track/0V3wPSX9ygBnCm8psDIegu,94,pop
+track,Until I Found You (with Em Beihold) - Em Beihold Version,176440,"Em Beihold, Stephen Sanchez",Until I Found You (Em Beihold Version),2022,,https://open.spotify.com/track/1Y3LN4zO1Edc2EluIoSPJN,93,pop

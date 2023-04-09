@@ -1,0 +1,54 @@
+Workflow of the whole project
+- installed linux, cuda
+- identify how many genres are there and draw a line somewhere because there are a lot of genres and subgenres out there
+- grab some spotify playlists which represent classic genres
+- get spotify api credentials by registering from their website
+- FILE 1
+    - filename - create_spotify_df.py
+    - ping their api with the playlists link you have saved to get the individual details of each song. 
+    - Label these songs since you know what playlist each songs belong to. 
+    - Export to pandas dataframe
+- NOTEBOOK 2
+    - filename - EDA_songs.ipynb
+    - Do some EDA on the dataset in a jupyter notebook
+        - Process and clean the dataset
+            - Export the processed and cleaned dataset so that i can be used in the next stage 
+        - do some visualizations to get a better idea of the dataset
+- FILE 3
+    - filename - download_songs.py
+    - Using the spotdl or some other library, download the spotify songs with the help of the cleaned dataset
+        - the script might run for a long time since a llot of songs are being downlaoded
+- FILE 4
+    - create a script which will chunk the downloaded songs into 30 seconds increments and write those chunks to storage 
+- FILE 5 
+    - use a library or an algo from online to convert these chunks into image data which contain the features about the songs/chunks
+- FILE 6
+    - A file to easily load the dataset/images
+        - (how to split into train,test datasets)[https://www.tensorflow.org/tutorials/load_data/images#train_a_model]
+    - clean and preprocess the images, convert to correct format and specifications 
+    - make it so that they can directly be used as model input for the dataloader
+- FILE 7
+    - load the dataset for training
+        - train test split,dataloaders, etc. 
+    - define model architecture
+        - hyperparams
+    - train the model
+        - save best model, checkpoint
+    - evaluation metrics, 
+        - rough measure of metrics on test set
+- FILE 8
+    - make 2 functions
+        - one to run inference on a song
+            - since songs are > 30s, chunk them, run inference separately and parallely, if possible(maybe use batch processing and pipeline???)
+            - select output by mode (most frequently predicted genre throughout chunks), sort of like ensemble learning
+        - one to run inferencr 
+- FILE 9
+    - extend and API for function number 1 in FILE 8 
+
+# what about baseline mode using GTZAN? 
+- think about it later
+- because:
+    - the labels in GTZAN are going to lesser than the ones I have, my porposed dataset and the model are going to be more up to date, at least with the current songs
+    - ensemble learning already happening throughout chunks, adding a new/second model for ensemble output gen would add too many chunks,  would be a nightmare in terms of processing speed
+    - data processing might be different
+

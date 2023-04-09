@@ -1,0 +1,14 @@
+tensorflow
+# tensorflow-gpu
+tensorboard
+keras
+librosa
+pandas
+numpy
+matplotlib
+tqdm
+spotdl
+spotipy
+# torch
+scikit-learn
+jupyter

@@ -1,0 +1,223 @@
+[
+    {
+        "playlist_name" : "I Love My '10s R&B" ,
+        "playlist_link" : "https://open.spotify.com/playlist/37i9dQZF1DWXbttAJcbphz?si=bb220534a0224a43",
+        "genre":"r&b",
+        "decade" : "2010s"
+    },
+    {
+        "playlist_name" : "I Love My '00s R&B",
+        "playlist_link" : "https://open.spotify.com/playlist/37i9dQZF1DWYmmr74INQlb?si=f59fed909de14222",
+        "genre":"r&b",
+        "decade" : "2000s"
+    },
+    {
+        "playlist_name" : "I Love My '90s R&B",
+        "playlist_link" : "https://open.spotify.com/playlist/37i9dQZF1DX6VDO8a6cQME?si=077a3a1f5d9b478f",
+        "genre":"r&b",
+        "decade" : "90s"
+    },
+    {
+        "playlist_name" : "'90s Baby Makers",
+        "playlist_link" : "https://open.spotify.com/playlist/37i9dQZF1DWVEvzGeX3eRs?si=ca6e93b6ae5c4ab5",
+        "genre":"r&b",
+        "decade" : "90s"
+    },
+    {
+        "playlist_name" : "I Love My 2010s Hip-Hop",
+        "playlist_link" : "https://open.spotify.com/playlist/37i9dQZF1DX97h7ftpNSYT?si=1b263fc2cde041be",
+        "genre": "hip-hop",
+        "decade" : "2010s"
+        
+    },
+    {
+        "playlist_name" : "I Love My 2000s Hip-Hop",
+        "playlist_link" : "https://open.spotify.com/playlist/37i9dQZF1DX1lHW2vbQwNN?si=07303d76dc69476e",
+        "genre": "hip-hop",
+        "decade" : "2000s"
+    },
+    {
+        "playlist_name" : "I Love My '90s Hip-Hop",
+        "playlist_link" : "https://open.spotify.com/playlist/37i9dQZF1DX186v583rmzp?si=7dfd1f7c87f34140",
+        "genre": "hip-hop",
+        "decade" : "90s"
+    },
+    {
+        "playlist_name" : "Rap UK",
+        "playlist_link" : "https://open.spotify.com/playlist/37i9dQZF1DX6PKX5dyBKeq?si=ea5b34a1f3ef425a",
+        "genre": "hip-hop",
+        "decade" : ""
+    },
+    {
+        "playlist_name" : "2010-2019: Best Rock Songs of the decade",
+        "playlist_link" : "https://open.spotify.com/playlist/5H5EuXHqZhWLSabI4BGMkA?si=58c2316371e54215",
+        "genre":"rock",
+        "decade" : "2010s"
+    },
+    {
+        "playlist_name" : "10s Rock Anthems",
+        "playlist_link" : "https://open.spotify.com/playlist/37i9dQZF1DX99DRG9N39X3?si=06501524a2ba4ad0",
+        "genre" : "rock",
+        "decade" : "2010s"
+    },
+    {
+        "playlist_name" : "00s Rock Anthems",
+        "playlist_link" : "https://open.spotify.com/playlist/37i9dQZF1DX3oM43CtKnRV?si=b48433dee720414f",
+        "genre" : "rock",
+        "decade" : "2000s"
+    },
+    
+    {
+        "playlist_name" : "2010s Country",
+        "playlist_link" : "https://open.spotify.com/playlist/37i9dQZF1DWXdiK4WAVRUW?si=021ecdec665942a3",
+        "genre" : "country",
+        "decade" : "2010s"
+    },
+    {
+        "playlist_name" : "2000s Country",
+        "playlist_link" : "https://open.spotify.com/playlist/37i9dQZF1DXdxUH6sNtcDe?si=399571887e814c0d",
+        "genre" : "country",
+        "decade" : "2000s"
+    },
+    {
+        "playlist_name" : "90s Country",
+        "playlist_link" : "https://open.spotify.com/playlist/37i9dQZF1DWVpjAJGB70vU?si=43bb61af6d6e49c3",
+        "genre" : "country",
+        "decade" : "90s"
+    },
+    {
+        
+        "playlist_name" : "Smooth Jazz 2000",
+        "playlist_link" : "https://open.spotify.com/playlist/37i9dQZF1DX5MImizrZfZg?si=aae7e731f4a647d3",
+        "genre" : "jazz",
+        "decade" : "2000s"
+    },
+    {
+        "playlist_name" : "2010s Jazz Mix",
+        "playlist_link" : "https://open.spotify.com/playlist/37i9dQZF1EIfiWPypbnHB7?si=45e96632355c44ca",
+        "genre" : "jazz",
+        "decade" : "2010s"
+    },
+    {
+        "playlist_name" : "Jazz Classics",
+        "playlist_link" : "https://open.spotify.com/playlist/37i9dQZF1DXbITWG1ZJKYt?si=32d248135724484b",
+        "genre" : "jazz",
+        "decade" : ""
+    },
+    {
+        "playlist_name" : "Alternative 00s",
+        "playlist_link" : "https://open.spotify.com/playlist/37i9dQZF1DX0YKekzl0blG?si=5ddc1651dcb342b6",
+        "genre" : "rock",
+        "subgenres" : "alternative",
+        "decade" : "2000s"
+    },
+    {
+        "playlist_name" : "Alternative 10s",
+        "playlist_link" : "https://open.spotify.com/playlist/37i9dQZF1DX873GaRGUmPl?si=852c305385994264",
+        "genre" : "rock",
+        "subgenres" : "alternative",
+        "decade" : "2010s"
+    },
+    {
+        "playlist_name" : "lofi beats",
+        "playlist_link" : "https://open.spotify.com/playlist/37i9dQZF1DWWQRwui0ExPn?si=c29506d09f1346cc",
+        "genre" : "lofi",
+        "comments" : "contains about 1000 songs",
+        "decade" : "2010s 2000s"
+    },
+    {
+        "playlist_name" : "Today's Top Hits Presents… Best Pop Songs of the 2010s",
+        "playlist_link" : "https://open.spotify.com/playlist/37i9dQZF1DWSs8ya2jFSgv?si=421790a8eb46449f",
+        "genre" : "pop",
+        "decade" : "2010s"
+    },
+    {
+        "playlist_name" : "00s Pop Run",
+        "playlist_link" : "https://open.spotify.com/playlist/37i9dQZF1DXbcCmWfoUaw2?si=b7f30fb756fb4ba9",
+        "genre" : "pop",
+        "decade" : "2000s"
+    },
+    {
+        "playlist_name" : "Pop shots",
+        "playlist_link" : "https://open.spotify.com/playlist/37i9dQZF1DX1dCsSMSXSsP?si=44f7ea99f95b4c59",
+        "genre" : "pop",
+        "decade" : "2000s 2010s"
+    },
+    {
+        "playlist_name" : "Pop Favourites",
+        "playlist_link" : "https://open.spotify.com/playlist/37i9dQZF1DXcOFePJj4Rgb?si=3f8056127a78418e",
+        "genre" : "pop",
+        "decade" : "2000s 2010s"
+    },
+    {
+        "playlist_name" : "classical essentials",
+        "playlist_link" : "https://open.spotify.com/playlist/37i9dQZF1DWWEJlAGA9gs0?si=7dbe6cce28eb4dae",
+        "genre" : "classical",
+        "comments" : "150 songs",
+        "decade" : "2000s 2010s"
+    },
+    {
+        "playlist_name" : "The Greatest classical music",
+        "playlist_link" : "https://open.spotify.com/playlist/6nrMDYTWNhlooAsNaeSP2Y?si=d19221abd5e844a6",
+        "genre" : "classical",
+        "comments" : "50 songs, Not exclusively made by spotify, made by a spotify user"
+    },
+    {
+        "playlist_name" : "Best Classical music",
+        "playlist_link" : "https://open.spotify.com/playlist/1h0CEZCm6IbFTbxThn6Xcs?si=b02e29e0683843c6",
+        "genre" : "classical",
+        "comments" : "Not exclusively made by spotify, made by a spotify user"
+    },
+    {
+        "playlist_name" : "Blues Classics",
+        "playlist_link" : "https://open.spotify.com/playlist/37i9dQZF1DXd9rSDyQguIk?si=1b06646247ce401a",
+        "genre" : "blues",
+        "decade" : ""
+    },
+    {
+        "playlist_name" : "Blues Mix",
+        "playlist_link" : "https://open.spotify.com/playlist/37i9dQZF1EQpz3DZCEoX3g?si=45def4a2a7f649df",
+        "genre" : "blues",
+        "decade" : ""
+    },
+    {
+        "playlist_name" : "Midnight Blues",
+        "playlist_link" : "https://open.spotify.com/playlist/37i9dQZF1DXcc6f6HRuPnq?si=58821f496e4246ee",
+        "genre" : "blues",
+        "decade" : ""
+    },
+    {
+        "playlist_name" : "EDM Hits",
+        "playlist_link" : "https://open.spotify.com/playlist/37i9dQZF1DX3Kdv0IChEm9?si=7dcdc06046964804",
+        "genre" : "electronic",
+        "decade" : "2000s"
+    },
+    {
+        "playlist_name" : "10s Electronica - 2010s EDM - 10s Dance Music - Spotify",
+        "playlist_link" : "https://open.spotify.com/playlist/1O4GdsuVDrJh0uChlsq3So?si=e0a9504df343475a",
+        "genre" : "electronic",
+        "comments" : "Not exclusively created by spotify. Created by a spotify user. Also, it consists electronic music of only female vocals ",
+        "decade" : "2010s"
+    },
+    {
+        "playlist_name" : "Top 200 EDM songs of the 2010s",
+        "playlist_link" : "https://open.spotify.com/playlist/11B8JNxW7fNdJLtPL1WDWh?si=b31c456f668d4c44",
+        "genre" : "electronic",
+        "comments" : "Not exclusively created by spotify. Created by a spotify user.",
+        "decade" : "2010s"
+    },
+    {
+        "playlist_name" : "Soft 10s",
+        "playlist_link" : "https://open.spotify.com/playlist/37i9dQZF1DX1uHCeFHcn8X?si=576d72c445b34354",
+        "genre" : "chill/mellow",
+        "decade" : "2010s"
+    },
+    {
+        "playlist_name" : "Soft 00s",
+        "playlist_link" : "https://open.spotify.com/playlist/37i9dQZF1DXdGHPXiRsW3u?si=6ab68185297048d3",
+        "genre" : "chill/mellow",
+        "decade" : "2000s"
+    }
+    
+    
+]

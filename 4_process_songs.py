@@ -87,23 +87,25 @@ def save_melspectogram(song_file_path,song_fname,genre):
         plt.savefig(f'{spectogram_save_path}/{genre}/{song_fname + "_" + str(i).zfill(3)}.png', bbox_inches = 'tight',pad_inches = 0)
     
                 
-
-
+# the original main function -  converts mel spectograms from audio files.
+# the execution of this programs stops randomly so I am making another copy of this code so that it is able to process all of the songs in one go, OR continue from where it left off
+'''
 if __name__=="__main__":
-    mp3_dir_path = 'data/sample_download/mp3_download_top75'
+    mp3_dir_path = 'data/sample_download/mp3_download_all'
     # spectogram_save_path = 'data/sample_download/mel_spectograms_iter_02_top5'
-    spectogram_save_path = 'data/sample_download/mel_spectograms_iter_03_top75'
+    spectogram_save_path = 'data/sample_download/mel_spectograms_iter_03_all'
     
     os.makedirs(spectogram_save_path,exist_ok=True)
 
-    for genre in os.listdir(mp3_dir_path):
+    for genre_idx, genre in enumerate(os.listdir(mp3_dir_path)):
 
         genre_dir = os.path.join(mp3_dir_path,genre)
-        print("#"*50,genre_dir,"#"*50,)
+        print("#"*55,genre_dir,"#"*55,)
             
-        for song_fname in os.listdir(genre_dir):
+        for song_idx, song_fname in enumerate(os.listdir(genre_dir)):
             song_file_path = os.path.join(genre_dir,song_fname)
-            print(song_fname)
+            print("Genre:",genre,",",(genre_idx+1),"/",len(os.listdir(mp3_dir_path)))
+            print("Song:",(song_idx+1),"/",len(os.listdir(genre_dir)),",",song_fname)
             # there is a difference between using mfcc and melspecotgram as features because they both as slightly different from each other. google the difference
             # save_mfcc(
             #     song_file_path
@@ -116,3 +118,48 @@ if __name__=="__main__":
             )
 
     # save_mfcc(file,JSON_PATH,num_segments=10)
+
+'''
+
+
+if __name__=="__main__":
+    mp3_dir_path = 'data/sample_download/mp3_download_all'
+    # spectogram_save_path = 'data/sample_download/mel_spectograms_iter_02_top5'
+    spectogram_save_path = 'data/sample_download/mel_spectograms_iter_03_all'
+    
+    conversion_progress_path = 'data/sample_download/mel_spectograms_all_conv_progress.json'
+    
+    with open(conversion_progress_path,'r') as f:
+        conversion_progress = json.load(f)
+
+    converted_songs = set(conversion_progress['progress'])
+    
+        
+    os.makedirs(spectogram_save_path,exist_ok=True)
+
+    for genre_idx, genre in enumerate(os.listdir(mp3_dir_path)):
+        
+        genre_dir = os.path.join(mp3_dir_path,genre)
+        print("#"*55,genre_dir,"#"*55,)
+            
+        for song_idx, song_fname in enumerate(os.listdir(genre_dir)):
+            song_file_path = os.path.join(genre_dir,song_fname)
+            if song_file_path in converted_songs:
+                print(f"skipping {song_fname} as its already converted")
+                continue
+            # If not converted, process and convert the audio into spectograms
+            print("Genre:",genre,",",(genre_idx+1),"/",len(os.listdir(mp3_dir_path)))
+            print("Song:",(song_idx+1),"/",len(os.listdir(genre_dir)),",",song_fname)
+            
+            save_melspectogram(
+                song_file_path,
+                song_fname = song_fname, # name of the song file to make a save path for the resulting images
+                genre = genre, # basically the genre of the song to make a save path for the resulting images
+
+            )
+            converted_songs.add(song_file_path)
+
+
+            with open(conversion_progress_path, 'w') as file:
+                json.dump({"progress":list(converted_songs)}, file)
+

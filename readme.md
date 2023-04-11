@@ -48,7 +48,7 @@ Workflow of the whole project
 # what about baseline mode using GTZAN? 
 - think about it later
 - because:
-    - the labels in GTZAN are going to lesser than the ones I have, my porposed dataset and the model are going to be more up to date, at least with the current songs
+    - the labels in GTZAN are going to lesser than the ones I have, my proposed dataset and the model are going to be more up to date, at least with the current songs
     - ensemble learning already happening throughout chunks, adding a new/second model for ensemble output gen would add too many chunks,  would be a nightmare in terms of processing speed
     - data processing might be different
 
